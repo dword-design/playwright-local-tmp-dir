@@ -1,4 +1,4 @@
 {
-  "name": "@dword-design/node",
+  "name": "@dword-design/playwright",
   "testRunner": "playwright"
 }

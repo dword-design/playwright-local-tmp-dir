@@ -1,3 +1,6 @@
 {
-  "extends": "@dword-design/eslint-config"
+  "extends": "@dword-design/eslint-config",
+  "rules": {
+    "no-empty-pattern": "off"
+  }
 }
