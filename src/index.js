@@ -5,6 +5,8 @@ export const test = base.extend({
   localTmpDir: [
     async ({}, use) => {
       const reset = await withLocalTmpDir();
+      process.on('SIGINT', () => reset());
+
       try {
         await use();
       } finally {

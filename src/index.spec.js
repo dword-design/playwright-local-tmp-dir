@@ -16,18 +16,26 @@ test('sigint', async () => {
     endent`
       import { test } from '../src/index.js';
 
-      test('works', () => new Promise(resolve => setTimeout(resolve, 2000)));
+      test('works', async () => {
+        await fs.mkdir('testdir');
+        await new Promise(() => {});
+      });
     `,
   );
 
   const cwd = process.cwd();
 
-  const testProcess = execaCommand('playwright test', {
-    reject: false,
-    stdio: 'inherit',
+  const dirCreated = new Promise(resolve => {
+    const watcher = fs.watch('.', (eventType, filename) => {
+      if (eventType === 'rename' && filename.startsWith('tmp-')) {
+        watcher.close();
+        resolve();
+      }
+    });
   });
 
-  await new Promise(resolve => setTimeout(resolve, 1000));
+  const testProcess = execaCommand('playwright test', { reject: false });
+  await dirCreated;
   testProcess.kill('SIGINT');
   await testProcess;
   expect(process.cwd()).toEqual(cwd);
