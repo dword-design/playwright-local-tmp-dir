@@ -1,0 +1,44 @@
+{
+  "name": "playwright-local-tmp-dir",
+  "version": "1.0.0",
+  "repository": "dword-design/playwright-local-tmp-dir",
+  "funding": "https://github.com/sponsors/dword-design",
+  "license": "MIT",
+  "author": "Sebastian Landwehr <info@sebastianlandwehr.com>",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "checkUnknownFiles": "base checkUnknownFiles",
+    "commit": "base commit",
+    "depcheck": "base depcheck",
+    "dev": "base dev",
+    "lint": "base lint",
+    "prepare": "base prepare",
+    "prepublishOnly": "base prepublishOnly",
+    "test": "base test"
+  },
+  "dependencies": {
+    "with-local-tmp-dir": "^5.1.1"
+  },
+  "devDependencies": {
+    "@dword-design/base": "^11.3.4",
+    "@dword-design/functions": "^6.0.2",
+    "@playwright/test": "^1.52.0",
+    "execa": "^9.5.2",
+    "fs-extra": "^11.3.0"
+  },
+  "peerDependencies": {
+    "@playwright/test": "^1"
+  },
+  "packageManager": "pnpm@10.10.0+sha512.d615db246fe70f25dcfea6d8d73dee782ce23e2245e3c4f6f888249fb568149318637dca73c2c5c8ef2a4ca0d5657fb9567188bfab47f566d1ee6ce987815c39",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
