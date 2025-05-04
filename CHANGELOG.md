@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/dword-design/playwright-local-tmp-dir/compare/v1.0.0...v1.0.1) (2025-05-04)
+
+
+### Bug Fixes
+
+* foo ([02dde30](https://github.com/dword-design/playwright-local-tmp-dir/commit/02dde30c02e49bfb6a4dd4d95c817df89402f725))
+
 # 1.0.0 (2025-05-04)
 
 

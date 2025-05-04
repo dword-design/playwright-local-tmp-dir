@@ -1,6 +1,6 @@
 {
   "name": "playwright-local-tmp-dir",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "dword-design/playwright-local-tmp-dir",
   "funding": "https://github.com/sponsors/dword-design",
   "license": "MIT",
