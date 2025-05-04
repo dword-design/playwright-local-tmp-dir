@@ -27,6 +27,9 @@ importers:
       fs-extra:
         specifier: ^11.3.0
         version: 11.3.0
+      globby:
+        specifier: ^14.1.0
+        version: 14.1.0
 
 packages:
 
