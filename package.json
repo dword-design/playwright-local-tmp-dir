@@ -29,8 +29,7 @@
     "@dword-design/functions": "^6.0.2",
     "@playwright/test": "^1.52.0",
     "execa": "^9.5.2",
-    "fs-extra": "^11.3.0",
-    "globby": "^14.1.0"
+    "fs-extra": "^11.3.0"
   },
   "peerDependencies": {
     "@playwright/test": "^1"
