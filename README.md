@@ -50,7 +50,7 @@
 <!-- /BADGES -->
 
 <!-- DESCRIPTION/ -->
-
+Playwright fixture that generates and changes into a temporary subdirectory for each test.
 <!-- /DESCRIPTION -->
 
 <!-- INSTALL/ -->

@@ -1,6 +1,7 @@
 {
   "name": "playwright-local-tmp-dir",
   "version": "1.0.1",
+  "description": "Playwright fixture that generates and changes into a temporary subdirectory for each test.",
   "repository": "dword-design/playwright-local-tmp-dir",
   "funding": "https://github.com/sponsors/dword-design",
   "license": "MIT",
@@ -41,6 +42,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "description": "Playwright fixture that generates and changes into a temporary subdirectory for each test."
+  }
 }
