@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/dword-design/playwright-local-tmp-dir/compare/v1.0.1...v1.0.2) (2025-05-05)
+
+
+### Bug Fixes
+
+* update config files ([d485a07](https://github.com/dword-design/playwright-local-tmp-dir/commit/d485a07f445d3f4caaf8e17fb23d59866e47305f))
+* write GitHub metadata to package.json [description] ([#1](https://github.com/dword-design/playwright-local-tmp-dir/issues/1)) ([9a884e3](https://github.com/dword-design/playwright-local-tmp-dir/commit/9a884e3a181a053c5838310d86cee8276d859c80))
+
 ## [1.0.1](https://github.com/dword-design/playwright-local-tmp-dir/compare/v1.0.0...v1.0.1) (2025-05-04)
 
 
