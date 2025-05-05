@@ -41,5 +41,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "description": "Playwright fixture that generates and changes into a temporary subdirectory for each test."
 }
